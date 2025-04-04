@@ -351,7 +351,7 @@ D = ["😘", "👾", "🤝", "👀", "❤️‍🔥", "💘", "😍", "😇", "�
 
 
 # Callback & Message Queries
-@bot.on_message(pyrofl.command(["start", "help"]) & pyrofl.private)
+@bot.on_message(pyrofl.command(["xstart", "xhelp"]) & pyrofl.private)
 async def start_message_private(client, message):
     user_id = message.from_user.id
     mention = message.from_user.mention
